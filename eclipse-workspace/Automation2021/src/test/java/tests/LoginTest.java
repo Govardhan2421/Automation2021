@@ -20,6 +20,7 @@ public void initialize()
 
 @Test
 public void Login_Test() {
+	System.out.println("Actual Test");
 HomePage hp=PageFactory.initElements(driver,HomePage.class);
 hp.Login();
 LoginPage lp=PageFactory.initElements(driver,LoginPage.class);
