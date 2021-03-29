@@ -70,5 +70,9 @@ public class Utilities extends TestBase{
     	JavascriptExecutor js = ((JavascriptExecutor) driver);
     	js.executeScript("arguments[0].scrollIntoView(true);", element);
     }
-
+    public static void selectDateByJS(WebDriver driver, WebElement element, String dateVal){
+    	JavascriptExecutor js = ((JavascriptExecutor) driver);
+		js.executeScript("arguments[0].setAttribute('value','"+dateVal+"');", element);
+		
+	}
 }
