@@ -29,7 +29,7 @@ lp.Login("vgrvgsvmr94@gmail.com", "Automation2021");
 public void close()
 {
 	driver.quit();
-	System.out.println("executed succesfully");
+	System.out.println("Sample test case only");
 }
 
 }
