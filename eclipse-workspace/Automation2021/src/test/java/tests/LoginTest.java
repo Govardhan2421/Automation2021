@@ -21,10 +21,10 @@ public void initialize()
 @Test
 public void Login_Test() {
 	System.out.println("Actual Test");
-HomePage hp=PageFactory.initElements(driver,HomePage.class);
-hp.Login();
-LoginPage lp=PageFactory.initElements(driver,LoginPage.class);
-lp.Login("vgrvgsvmr94@gmail.com", "Automation2021");
+	HomePage hp=PageFactory.initElements(driver,HomePage.class);
+	hp.Login();
+	LoginPage lp=PageFactory.initElements(driver,LoginPage.class);
+	lp.Login("vgrvgsvmr94@gmail.com", "Automation2021");
 }
 @AfterTest
 public void close()
