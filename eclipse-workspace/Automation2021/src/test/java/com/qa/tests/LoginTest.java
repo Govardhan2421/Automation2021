@@ -1,4 +1,4 @@
-package tests;
+package com.qa.tests;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterTest;
